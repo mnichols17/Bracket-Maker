@@ -1,3 +1,6 @@
+#Insert teams 
+teams = []
+
 import random
 
 randomGroup = []
