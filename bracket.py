@@ -1,6 +1,7 @@
 import random
 from sys import argv
 
+# Put team names in the teams.txt file and the program will get them from there
 script, filename = argv
 
 data = open(filename, 'r')
