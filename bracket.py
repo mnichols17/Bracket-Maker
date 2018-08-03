@@ -7,8 +7,6 @@ script, filename = argv
 data = open(filename, 'r')
 teams = data.read().split("\n")
 data.close()
-for i in range(0, len(teams)):
-    print(teams[i])
 
 randomGroup = []
 a = []
